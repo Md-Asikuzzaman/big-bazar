@@ -11,7 +11,7 @@ const Header: NextPage<Props> = ({}) => {
   return (
     <header className="bg-[#10B981] py-3">
       <Container>
-        <div className="flex items-center justify-between gap-3 lg:gap-12 flex-col lg:flex-row">
+        <div className="flex items-center justify-between gap-3 md:gap-12 flex-col md:flex-row">
           <Logo />
           <SearchBar />
           <ShortCut />
