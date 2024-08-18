@@ -30,8 +30,6 @@ const StickyNavigation: NextPage<Props> = ({}) => {
             <LuHome size={26} className="text-[#10B981]" />
           </div>
 
-          {/* home option */}
-
           <div className="h-12 w-12 hover:bg-[#ffffff33] grid place-content-center rounded-full cursor-pointer relative shrink-0">
             <LuShoppingCart size={26} className="text-white" />
             <span className="absolute top-0 right-0 text-xs bg-rose-500 text-white py-[2px] px-[5px] rounded-full">
