@@ -17,7 +17,7 @@ const ShortCut: NextPage<Props> = ({}) => {
 
       <div className="h-11 w-11 hover:bg-[#ffffff33] grid place-content-center rounded-full cursor-pointer relative">
         <LuBell size={25} className="text-white" />
-        <span className="absolute top-0 right-0 text-xs bg-rose-500 text-white py-[2px] px-[5px] rounded-full">
+        <span className="absolute top-0 right-0 text-xs bg-[#ffc107] text-white py-[2px] px-[5px] rounded-full">
           9
         </span>
       </div>

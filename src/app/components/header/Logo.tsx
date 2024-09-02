@@ -13,7 +13,7 @@ const Logo = () => {
       alt="logo"
       src={"/img/logo-light.svg"}
       onClick={() => router.replace("/")}
-      className="shrink-0"
+      className="shrink-0 cursor-pointer"
     />
   );
 };

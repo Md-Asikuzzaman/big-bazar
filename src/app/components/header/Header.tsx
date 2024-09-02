@@ -9,7 +9,7 @@ interface Props {}
 
 const Header: NextPage<Props> = ({}) => {
   return (
-    <header className="bg-[#10B981] py-3">
+    <header className="bg-[#28a745] py-3">
       <Container>
         <div className="flex items-center justify-between gap-3 md:gap-12 flex-col md:flex-row">
           <Logo />

@@ -9,7 +9,7 @@ interface Props {}
 
 const Navigation: NextPage<Props> = ({}) => {
   return (
-    <section className="hidden md:block">
+    <section className="hidden md:block bg-white border-b py-3">
       <Container>
         <div className="flex items-center justify-between">
           <NavigationMenu />
